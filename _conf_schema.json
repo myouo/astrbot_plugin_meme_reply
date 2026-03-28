@@ -1,0 +1,12 @@
+{
+  "admins": {
+    "type": "list",
+    "default": [],
+    "description": "插件管理员 QQ 号列表，管理员可以使用 /meme 指令切换角色"
+  },
+  "default_character": {
+    "type": "str",
+    "default": "default",
+    "description": "默认使用的角色文件夹名（assets 目录下的子文件夹名）"
+  }
+}
